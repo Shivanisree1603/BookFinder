@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com "></script>
+</head>
+<body>
+<div class="flex flex-col bg-black">
+
+    <div class="flex flex-row gap-2 justify-between ">
+    <h1 class="font-bold text-orange-500 text-3xl p-7 ">BOOK FINDER</h1>
+    <div class="flex flex-row gap-0">
+    <input id="search" placeholder=" Search by Author or Title " class="bg-gray-900 rounded-s-3xl text-white  mt-7 mb-5 px-24 py-1 mr-1">
+    <button class="bg-orange-600 rounded-r-xl mr-3 mt-7 mb-5  px-2">Search</button>
+    </div>
+    </div>
+    
+    <div class="flex flex-row gap-3 justify-evenly mt-4 ">
+      <button class="hover:border bg-gray-900 text-gray-200 rounded-lg px-9 py-2">Bestsellers</button>
+      <button class="hover:border bg-gray-900 text-gray-200 rounded-lg px-9 py-2">New Releases</button>
+      <button class="hover:border bg-gray-900 text-gray-200 rounded-lg px-9 py-2">Fiction</button>
+      <button class="hover:border bg-gray-900 text-gray-200 rounded-lg px-9 py-2">Fantasy</button>
+      <button class="hover:border bg-gray-900 text-gray-200 rounded-lg px-9 py-2">Thriller</button>
+      <button class="hover:border bg-gray-900 text-gray-200 rounded-lg px-9 py-2">Mystery</button>
+      <button class="hover:border bg-gray-900 text-gray-200 rounded-lg px-9 py-2">Business</button>
+      <button class="hover:border bg-gray-900 text-gray-200 rounded-lg px-9 py-2">Self help</button>
+    </div>
+    
+       
+      <p class="text-gray-200 mt-14 ml-16 text-2xl ">Bestsellers</p>
+      <div class="flex flex-row gap-5  justify-evenly text-center ml-6  mt-5 ">
+      <!-- 1.a -->
+      
+        <div class="flex flex-col gap-2 bg-gray-900 rounded-lg text-gray-200 py-1 ">
+          <img src="Picture\They hunt.jpg" alt="They hunt" width="200" height="30">
+          <p class="text-gray-200 font-bold ml-2" > They Hunt</p>  
+          <p> by Claire Fraise</p>
+          <button id="button1a" class="rounded-lg bg-gray-900 text-white border ">Preview</button> 
+        </div>
+    <!-- 2.a -->
+         <div class="flex flex-col gap-2 bg-gray-900 rounded-lg text-gray-200 py-1 ">
+          <img src="Picture\november_9.jpg" alt="November 9" width="200" height="30">
+          
+          <p class="text-gray-200 font-bold text-center" >November 9</p>
+          <p class=""> by Colleen Hoover</p>
+          <button id="button2a" class="rounded-lg bg-gray-900 text-white border ">Preview</button>   
+         </div>
+    <!-- 3.a -->
+         <div class="flex flex-col gap-2 bg-gray-900 rounded-lg text-gray-200 py-1 ">
+          <img src="Picture\warriors.png" alt="Warriors" width="200" height="30" >
+          <p class="text-gray-200 font-bold ml-2" >Warriors</p> 
+          <p> by  Erin Hunter </p>
+          <button id="button3a" class="rounded-lg bg-gray-900 text-white border ">Preview</button>  
+         </div>
+    <!-- 4.a -->
+         <div class="flex flex-col gap-2 bg-gray-900 rounded-lg text-gray-200  py-1">
+          <img src="Picture\Queen-Bee.jpg" alt="Queen Bee" width="200" height="30">
+          <p class="text-gray-200 font-bold ml-2" >Queen Bee</p>  
+          <p> by Dorothea Frank</p>
+          <button id="button4a" class="rounded-lg bg-gray-900 text-white border ">Preview</button> 
+         </div>
+       <!-- 5.a -->
+       <div class="flex flex-col gap-2 bg-gray-900 rounded-lg text-gray-200  py-1">
+        <img src="Picture\her_silent_obsession - Copy.jpg" alt="Her silent obsession" width="200" height="100">
+        <p class="text-gray-200 font-bold ml-2" >Her Silent Obsession</p>  
+        <p> by ML Rose</p>
+        <button id="button5a" class="rounded-lg bg-gray-900 text-white border ">Preview</button> 
+       </div>
+    </div>
+    <!--New Releases-->
+    <div class="bg-black">
+    <p class="text-gray-200 mt-14 ml-16 text-2xl ">New Releases</p>
+    <div class="flex flex-col gap-2 bg-black"></div>
+    
+    <div class="flex flex-row gap-5  justify-evenly text-center ml-6  mt-5 ">
+    <!-- 1.b -->
+    
+      <div class="flex flex-col gap-2 bg-gray-900 rounded-lg text-gray-200 py-1 ">
+        <img src="Picture\letter_from_lighthouse.jpg" alt="Letter from light house" width="200" height="30">
+        <p class="text-gray-200 font-bold ml-2" >Letter From The Light <br>House</br></p>  
+        <p> by Emma Carroll</p>
+        <button id="button1b" class="rounded-lg bg-gray-900 text-white border ">Preview</button> 
+      </div>
+  <!-- 2.b -->
+       <div class="flex flex-col gap-2 bg-gray-900 rounded-lg text-gray-200 py-1 ">
+        <img src="Picture\rain.jpg" alt="Rain" width="200" height="30">
+        
+        <p class="text-gray-200 font-bold text-center" >Rain</p>
+        <p class=""> by Tim Antonides</p>
+        <button id="button2b" class="rounded-lg bg-gray-900 text-white border ">Preview</button>   
+       </div>
+  <!-- 3.b -->
+       <div class="flex flex-col gap-2 bg-gray-900 rounded-lg text-gray-200 py-1 ">
+        <img src="Picture\end_of_watch.jpg" alt="End of Watch" width="200" height="30" >
+        <p class= "text-gray-200 font-bold ml-2"> End of Watch</p> 
+        <p> by  Stephen King </p>
+        <button id="button3b"class="rounded-lg bg-gray-900 text-white border ">Preview</button>  
+       </div>
+  <!-- 4.b -->
+       <div class="flex flex-col gap-2 bg-gray-900 rounded-lg text-gray-200  py-1">
+        <img src="Picture\sorceryofthorns - Copy.jpg" alt="Sorcery of thorns" width="200" height="30">
+        <p class="text-gray-200 font-bold ml-2"> Sorcery of Thorns</p>  
+        <p> by Margaret Rogerson</p>
+        <button id="button4b" class="rounded-lg bg-gray-900 text-white border ">Preview</button> 
+       </div>
+     <!-- 5.b -->
+    <div class="flex flex-col gap-2 bg-gray-900 rounded-lg text-gray-200 py-1 ">
+      <img src="Picture\curse_of_shadows_and_thorns.jpg" alt="Curses of shadows and thorns" width="200" height="30" >
+      <p class= "text-gray-200 font-bold ml-2">Curses of Shadows and <br>Thorns</br></p> 
+      <p> by LJ Andrews  </p>
+      <button id="button3b"class="rounded-lg bg-gray-900 text-white border ">Preview</button>  
+     </div>
+
+   </div>
+</div>  
+<script src="script.js"> </script>
+</body>
+<footer class="bg-orange-600 text-black py-16 mt-7">
+  <div class=" flex flex-col item-center justify-center gap-1 px-6  ">
+      <div class="text-center">
+          <h2 class="text-xl font-bold ">Stay Connected</h2>
+          <p class="text-sm mt-2">Follow us on social media for updates</p>
+      </div>
+      <div class="text-center">
+          <h2 class="text-xl font-bold mt-4">Contact Us</h2>
+          <p class="text-sm mt-3">Email: info@bookfinder.com</p>
+          <p class="text-sm mt-1">Phone: +123-456-7890</p>
+      </div>
+      <div class="text-center mt-6 md:mt-0">
+          <p class="text-sm">&copy; 2024 Book Finder App</p>
+          <p class="text-sm mt-1">Designed with <i class="fas fa-heart text-red-500"></i> by Shivanisree N</p>
+      </div>
+  </div>
+</footer>
+</html>
